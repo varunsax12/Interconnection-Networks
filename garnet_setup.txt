@@ -1,0 +1,11 @@
+NoC Setup:
+https://tusharkrishna.ece.gatech.edu/teaching/garnet_gt/
+
+1. hg clone /nethome/tkrishna3/teaching/simulators/gem5/repo/gem5
+Commands:
+    1. hg status shows what files have been modified in your repository
+    2. hg diff shows a diff of the modified files.
+
+2. Inside gem5 run: source my_scripts/set_env.cshrc
+3. cd gem5
+    ./my_scripts/build_Garnet_standalone.sh
